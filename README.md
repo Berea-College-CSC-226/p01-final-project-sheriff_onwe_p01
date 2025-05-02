@@ -62,7 +62,22 @@ Reflect on what you’ve done so far. How’s it going? Are you feeling behind/a
 What has surprised you so far? Describe your general feelings. Be honest with yourself; this section is for you, not me.
 
 ```
-    **Replace this text with your reflection
+    So far, we feel like we’re somewhere in the middle—not exactly ahead, but not falling too far behind either. We've 
+    made good progress setting up the code structure and have started working on some of the core functionality. The 
+    issue queue has helped guide our tasks, but we definitely need to be better about updating it regularly instead of 
+    all at once.
+
+    One thing we’re a bit concerned about is underestimating how long certain parts of the code will take. Sometimes a small 
+    bug turns into a bigger time sink than expected. We've also noticed that some of our early code might need to be
+     refactored as we move forward, which adds to the workload.
+    
+    What’s surprised us the most is how rewarding it feels when even small parts of the project work as expected. Seeing 
+    things come together, even in tiny steps, has been really motivating. We didn’t anticipate enjoying the debugging 
+    process or the little coding wins this much.
+    
+    Overall, we’re feeling a mix of stress and motivation. There’s still a lot to do, but we’re committed to staying on 
+    track and moving forward one issue at a time.
+
 ```
 
 ---
@@ -71,39 +86,50 @@ What has surprised you so far? Describe your general feelings. Be honest with yo
 
 Indicate what percentage of the project you have left to complete and how confident you feel. 
 
-❗️**Completion Percentage**: `0 - 100%`
+**Completion Percentage**: 50%
 
-❗️**Confidence**: Describe how confident you feel about completing this project, and why. Then, describe some 
+**Confidence**: Describe how confident you feel about completing this project, and why. Then, describe some 
   strategies you can employ to increase the likelihood that you'll be successful in completing this project 
   before the deadline.
 
 ```
-    **Replace this text with your reflection
+    We're feeling a bit uncertain about completing the project exactly as we originally planned. After reviewing what we 
+    have so far, we realized that there’s still a lot of work to do, and some adjustments may be necessary to stay 
+    within the time frame. To increase our chances of finishing on time, we’re planning to revisit our goals, focus on 
+    the most essential parts of the project, and simplify where needed. Staying organized, dividing tasks efficiently, 
+    and sticking to a tighter schedule will help us stay on track.
 ```
 
 ---
 
 ## Milestone 4: Final Code, Presentation, Demo
 
-### ❗User Instructions
+### User Instructions
 
-In a paragraph, explain how to use your program. Assume the user is starting just after they hit the "Run" button 
-in PyCharm. 
+After clicking the “Run” button in PyCharm, the flashcard program will open a new window with a clean graphical 
+interface. The user will first be prompted to choose how they want to input flashcards—either by uploading a file or 
+entering cards manually. If they choose "Upload File," they’ll be able to select a text file containing flashcards
+formatted with terms and definitions. If they choose "Enter Manually," they’ll be guided through adding flashcards 
+one by one. Once flashcards are loaded, the quiz will begin, showing a term and allowing the user to guess the 
+definition before revealing the correct answer. They can then mark whether they got it correct or incorrect. At
+the end of the session, the program will display the final score based on their responses.
 
-### ❗Errors and Constraints
+### Errors and Constraints
 
 Every program has bugs or features that had to be scrapped for time. These bugs should be tracked in the issue queue. 
 You should already have a few items in here from the prior weeks. Create a new issue for any undocumented errors and 
 deficiencies that remain in your code. Bugs found that aren't acknowledged in the queue will be penalized.
 
-### ❗Peer Evaluation
+In Issue queue on GitHub
+
+### Peer Evaluation
 
 It is important that all members of your team contribute equitably. The peer evaluation is your chance to either 
 a) celebrate the great work you all did together as an effective team, or b) indicate to the instructor if a member of
 your team did not contribute their fair share. Grades will be adjusted for any team member who is evaluated poorly. Your
 commit history will be used as evidence, so make sure you are using git effectively!
 
-### ❗Reflection
+### Reflection
 
 Each partner should write three to four well-written paragraphs address the following (at a minimum):
 - Why did you select the project that you did?
@@ -114,7 +140,30 @@ Each partner should write three to four well-written paragraphs address the foll
 - How well did you work with your partner? What made it go well? What made it challenging?
 
 ```
-    Partner 1: **Replace this text with your reflection
+    Fatma: We picked the flashcard app as our project because it felt useful and doable at the same time. As students, 
+    we’re always looking for better ways to study, and making a flashcard system that we could actually use just made
+    sense. We liked that it gave us a chance to practice both file handling and GUI design with Tkinter. It also felt 
+    like something we could expand on later if we wanted to. From the start, we wanted to create something that was 
+    clean, simple, and had some smart functionality, like tracking scores or saving user input.
+
+    The final version of our project stayed pretty true to what we originally planned. We had two input options
+    (manual and file upload), a working flashcard system, and a way to give a final score at the end. We did make a few 
+    adjustments as we went, especially to simplify the layout and keep the experience smooth for the user. There were 
+    parts we thought would be more complicated that ended up being easier, and other parts—like debugging the GUI—that 
+    took more time than we expected. But overall, it followed our original design pretty closely.
+
+    One of the biggest things I learned from this project is how much planning really helps. It’s easy 
+    to jump into coding, but taking time to think through the flow of the program and how each part connects saved us a lot 
+    of time later. I also got more confident with Tkinter and using classes to keep everything organized. The hardest part 
+    was definitely testing everything and making sure it still worked after each change—especially when buttons were
+    triggering the wrong functions or the window wasn’t updating the way we wanted.
+
+    Working with my partner went really well. We both brought different strengths to the table, and we tried to divide up
+    the work in a way that made sense. Communication was the key—just checking in often and sharing updates helped keep 
+    us on the same page. The only hard part was lining up our schedules, but once we got a rhythm going, it all came
+    together. If I were to do it again, I’d maybe sketch out the UI ahead of time and plan for more user testing early on.
+    But overall, I’m happy with how it turned out.
+    
 ```
 
 ```
